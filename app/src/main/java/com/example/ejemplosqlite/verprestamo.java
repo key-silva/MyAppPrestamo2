@@ -54,7 +54,9 @@ public class verprestamo extends AppCompatActivity {
             usuario.setMontoPlazo(cursor.getString(7));
             listaUsuario.add(usuario);
         }
+
         obtenerLista();
+
     }
 
     private void obtenerLista() {

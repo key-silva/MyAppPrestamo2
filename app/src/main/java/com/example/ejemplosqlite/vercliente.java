@@ -29,7 +29,6 @@ public class vercliente extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vercliente);
-
         conn = new conexionSQLiteHelper(getApplicationContext(), "bd_usuario", null, 1);
         try {
             consultarListaPersonas();
@@ -38,8 +37,6 @@ public class vercliente extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
-
-
     }
 
     private void consultarListaPersonas() {
@@ -86,7 +83,6 @@ public class vercliente extends AppCompatActivity {
         seis.setText(valor6);
         TextView siete = findViewById(R.id.textView107);
         siete.setText(valor7);
-
     }
 
     public void btnprestamo(View view) {
