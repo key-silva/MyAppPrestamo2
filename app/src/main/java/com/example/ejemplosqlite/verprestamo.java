@@ -56,6 +56,7 @@ public class verprestamo extends AppCompatActivity {
         }
         obtenerLista();
     }
+
     private void obtenerLista() {
         num_final=listaUsuario.size();
         String valor1 =listaUsuario.get(contador).getNombre_completo();
