@@ -36,6 +36,7 @@ public class verprestamo extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
     private void consultarListaPersonas() {
         SQLiteDatabase db=conn.getReadableDatabase();
         Prestamos usuario=null;
