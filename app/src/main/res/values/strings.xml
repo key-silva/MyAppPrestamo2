@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prestamo 24/7</string>
+    <string-array name="sexo">
+        <item>Opcion</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="interes">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>
