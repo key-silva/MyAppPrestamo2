@@ -15,7 +15,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Ver Cliente"
+        android:text="Datos del Cliente"
         android:textColor="@color/colorPrimary"
         android:textSize="16sp"
         android:textStyle="bold"
